@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230211233250">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="DUET Quiz">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="80" data-scroll-show class="header">
+			<div class="beta-test">
+				<p class="beta-test__text">ДОСЛІДНА ЕКСПЛУАТАЦІЯ</p>
+			</div>
+			<div class="header__container">
+				<!-- <a href="#" class="header__logo _icon-duet-logo" aria-label="duet-logo"></a> -->
+				<!-- <a href="#" class="header__image-ibg header__image-ibg_contain"><img src="img/header/logo.svg" alt="Logotype"></a> -->
+				<a href="#" class="header__image-ibg header__image-ibg_contain">
+					<svg viewBox="0 0 1766 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M927.447 158.394C923.029 158.394 919.447 154.812 919.447 150.394V101.561L842.658 101.703C839.455 101.733 836.499 99.764 835.256 96.774C834.013 93.784 834.695 90.34 836.983 88.05L921.87 3.04098C924.992 -0.0860219 930.057 -0.0890174 933.184 3.03298C936.31 6.15498 936.314 11.22 933.192 14.346L861.973 85.666L927.432 85.545C927.437 85.545 927.442 85.545 927.447 85.545C929.566 85.545 931.598 86.386 933.098 87.883C934.602 89.384 935.447 91.421 935.447 93.545V150.393C935.447 154.812 931.865 158.394 927.447 158.394Z" fill="#3860D3" />
+						<path d="M1089.14 158.38H1046.24C1041.83 158.38 1038.24 154.798 1038.24 150.38C1038.24 145.962 1041.83 142.38 1046.24 142.38H1081.14V16.693H983.99V51.193C983.99 55.611 980.408 59.193 975.99 59.193C971.572 59.193 967.99 55.611 967.99 51.193V8.69299C967.99 4.27499 971.572 0.692993 975.99 0.692993H1089.14C1093.56 0.692993 1097.14 4.27499 1097.14 8.69299V150.38C1097.14 154.798 1093.56 158.38 1089.14 158.38Z" fill="#3860D3" />
+						<path d="M975.992 157.484C981.765 156.725 985.823 151.39 985.057 145.57C984.29 139.75 978.99 135.648 973.218 136.407C967.446 137.167 963.388 142.501 964.154 148.322C964.92 154.142 970.22 158.244 975.992 157.484Z" fill="#3860D3" />
+						<path d="M715.832 89.808C715.832 95.68 711.073 100.439 705.201 100.439C699.33 100.439 694.572 95.68 694.572 89.808C694.572 83.931 699.33 79.177 705.201 79.177C711.073 79.177 715.832 83.931 715.832 89.808Z" fill="#1D1D1B" />
+						<path d="M479.037 27.943H464.037V132.338H479.037V27.943Z" fill="#1D1D1B" />
+						<path d="M66.583 27.506C30.096 27.506 0.411011 51.118 0.411011 80.141C0.411011 109.163 30.096 132.775 66.583 132.775C103.071 132.775 132.755 109.164 132.755 80.141C132.755 51.118 103.07 27.506 66.583 27.506ZM66.583 117.774C38.367 117.774 15.411 100.891 15.411 80.14C15.411 59.388 38.367 42.505 66.583 42.505C94.799 42.505 117.755 59.388 117.755 80.14C117.755 100.892 94.799 117.774 66.583 117.774Z" fill="#1D1D1B" />
+						<path d="M148.968 80.141C148.968 108.922 178.398 132.338 214.573 132.338H280.693V117.338H214.573C186.669 117.338 163.968 100.651 163.968 80.141C163.968 59.63 186.669 42.943 214.573 42.943H280.693V27.943H214.573C178.398 27.942 148.968 51.358 148.968 80.141Z" fill="#1D1D1B" />
+						<path d="M439.147 59.667C439.147 41.878 420.782 27.943 397.337 27.943H306.691V42.943H397.337C411.869 42.943 424.147 50.602 424.147 59.667C424.147 64.597 420.292 69.475 413.991 72.64H306.692V87.64H413.99C420.292 90.803 424.148 95.672 424.148 100.59C424.148 109.668 411.871 117.338 397.338 117.338H306.692V132.337H397.338C420.783 132.337 439.148 118.393 439.148 100.59C439.148 92.864 435.676 85.708 429.493 80.139C435.675 74.564 439.147 67.401 439.147 59.667Z" fill="#1D1D1B" />
+						<path d="M504.259 27.943V42.943H561.838V132.35H576.838V42.943H634.417V27.943H504.259Z" fill="#1D1D1B" />
+						<path d="M705.202 27.506C668.769 27.506 639.129 52.577 639.129 83.393V132.35H654.129V83.393C654.129 60.848 677.04 42.506 705.202 42.506C733.362 42.506 756.272 60.848 756.272 83.393V132.35H771.272V83.393C771.272 52.577 741.633 27.506 705.202 27.506Z" fill="#1D1D1B" />
+						<path d="M1757.04 0.692993H1176.72C1172.3 0.692993 1168.72 4.27499 1168.72 8.69299V150.38C1168.72 154.798 1172.3 158.38 1176.72 158.38H1757.04C1761.46 158.38 1765.04 154.798 1765.04 150.38V8.69299C1765.04 4.27399 1761.46 0.692993 1757.04 0.692993Z" fill="#3860D3" />
+						<path d="M1683.65 80.14C1689.83 74.566 1693.3 67.403 1693.3 59.668C1693.3 41.878 1674.94 27.943 1651.49 27.943H1560.85V42.943H1651.49C1666.02 42.943 1678.3 50.602 1678.3 59.668C1678.3 64.867 1674.01 70.006 1667.09 73.141H1560.85V87.141H1667.08C1674.01 90.275 1678.3 95.405 1678.3 100.591C1678.3 109.669 1666.02 117.339 1651.49 117.339H1560.85V132.339H1651.49C1674.94 132.339 1693.3 118.394 1693.3 100.591C1693.3 92.864 1689.83 85.709 1683.65 80.14Z" fill="white" />
+						<path d="M1358.64 72.641H1256.14V27.933H1241.14V132.285H1256.14V87.641H1358.64V132.285H1373.64V27.933H1358.64V72.641Z" fill="white" />
+						<path d="M1518.03 77.329C1518.03 99.874 1495.11 118.216 1466.95 118.216C1438.79 118.216 1415.88 99.874 1415.88 77.329V27.933H1400.88V77.329C1400.88 108.145 1430.52 133.216 1466.95 133.216C1503.39 133.216 1533.03 108.146 1533.03 77.329V27.933H1518.03V77.329Z" fill="white" />
+					</svg>
+				</a>
+
+				<div class="header__menu menu">
+					<button name="burger" aria-label="burger-menu" type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".wrapper" href="#" class="menu__link">Головна</a></li>
+							<li class="menu__item"><a data-goto-header="80" data-goto=".page__about" href="#" class="menu__link">Про нас</a></li>
+							<li class="menu__item"><a data-goto-header="80" data-goto=".page__quiz" href="#" class="menu__link">Квіз</a></li>
+							<li class="menu__item"><a data-goto-header="80" data-goto=".page__comments" href="#" class="menu__link">Відгуки</a></li>
+							<li class="menu__item"><a data-goto-header="80" data-goto=".footer" href="#" class="menu__link">Контакти</a></li>
+							<li class="menu__item"><a data-goto-header="80" data-goto=".page__contact" href="#" class="menu__link menu__link_darkblue">Є питання!</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section data-fullscreen class="page__top top">
+				<div class="top__container">
+					<div class="top__content">
+						<h1 class="top__title">Якісна <span class=" _icon-title-decor _title-decor">освіта</span><br>для тебе</h1>
+						<p class="top__subtitle">Отримуй у закладах освiти Кривого Рогу одразу все!</p>
+						<button data-goto-header="80" data-goto=".page__quiz" type="button" class="top__button button">Зроби перший крок</button>
+					</div>
+					<div class="top__image-ibg top__image-ibg_contain"><picture><source srcset="img/top/bg-decor2.webp" type="image/webp"><img src="img/top/bg-decor2.jpg" alt="Фото"></picture></div>
+				</div>
+			</section>
+			<section class="page__about about-project">
+				<div class="about-project__container">
+					<div class="about-project__content">
+						<div class="content-project">
+							<h3 class="content-project__title">Про проeкт</h3>
+							<p class="content-project__info content-project__info_top">Ми прагнемо, щоб <span>кожен</span> мав можливість обрати власну освітню карту <span>свого кар’єрного росту</span> та вдосконалював себе протягом усього життя.</p>
+							<p class="content-project__info">Приєднуйтесь до процесу побудови українського майбутнього шляхом досягнень на найвищому рівні досконалості.</p>
+						</div>
+						<div class="video-project">
+							<div class="video-project__image-ibg">
+								<picture><source srcset="img/about/duet-photo.webp" type="image/webp"><img src="img/about/duet-photo.png" alt="Фон"></picture>
+								<button data-popup="#video" data-popup-youtube="JLa2j2fw1xg" type="button" class="video-project__button-ibg video-project__button-ibg_contain">
+									<img src="img/about/play.svg" alt="Play">
+								</button>
+							</div>
+
+						</div>
+					</div>
+					<div class="about-project__info info-project">
+						<div class="info-project__item">
+							<h3 class="info-project__title">Інститути</h3>
+							<div class="info-project__body">
+								<div class="info-project__image-ibg info-project__image-ibg_contain"><img src="img/about-project/Інститути.svg" alt="Інститути"></div>
+								<p class="info-project__number">6</p>
+							</div>
+						</div>
+
+						<div class="info-project__item">
+							<h3 class="info-project__title">Фахових коледжа</h3>
+							<div class="info-project__body">
+								<div class="info-project__image-ibg"><img src="img/about-project/Коледжи.svg" alt="Коледжи"></div>
+								<p class="info-project__number">4</p>
+							</div>
+						</div>
+
+						<div class="info-project__item">
+							<h3 class="info-project__title">Кафедри</h3>
+							<div class="info-project__body">
+								<div class="info-project__image-ibg"><img src="img/about-project/Кафедри.svg" alt="Коледжи"></div>
+								<p class="info-project__number">17</p>
+							</div>
+						</div>
+
+						<div class="info-project__item">
+							<h3 class="info-project__title">Спеціальності</h3>
+							<div class="info-project__body">
+								<div class="info-project__image-ibg"><img src="img/about-project/Спеціальності.svg" alt="Спеціальності"></div>
+								<p class="info-project__number">25</p>
+							</div>
+						</div>
+
+						<div class="info-project__item">
+							<h3 class="info-project__title">Освітні програми</h3>
+							<div class="info-project__body">
+								<div class="info-project__image-ibg"><img src="img/about-project/Освітні програми.svg" alt="Освітні програми"></div>
+								<p class="info-project__number">60</p>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+			<section class="page__quiz quiz">
+				<div class="quiz__container">
+					<h2 class="quiz__title">Отримайте дорожню карту свого кар’єрного росту!</h2>
+					<div class="quiz__control control-quiz">
+						<!-- todo Предыдущий слайд -->
+						<button type="button" class="control-quiz__previous control-quiz__previous_disabled">
+							<!-- quiz__previous_hidden -->
+							<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.9698 7.00004C14.9698 7.44368 14.6096 7.80395 14.1659 7.80395H2.80913L7.25222 12.0428C7.57448 12.3493 7.586 12.8601 7.27942 13.1792C6.97286 13.5004 6.46446 13.5119 6.14304 13.2064L0.250178 7.58138C0.0902173 7.43196 0.000244141 7.22102 0.000244141 7.00004C0.000244141 6.77906 0.0902174 6.57147 0.249258 6.41745L6.14211 0.792453C6.46204 0.488101 6.97096 0.499484 7.279 0.820913C7.58556 1.13899 7.57405 1.6496 7.2518 1.9573L2.80872 6.19614H14.196C14.6384 6.19647 14.9698 6.55808 14.9698 7.00004Z" fill="#0081a7" />
+							</svg>
+						</button>
+						<div class="control-quiz__slider swiper">
+							<div class="control-quiz__wrapper swiper-wrapper">
+								<!-- <div class="control-quiz__slide swiper-slide">
+										<div class="control-quiz__bullet"><span class="control-quiz__number">1</span></div>
+									</div> -->
+							</div>
+						</div>
+
+					</div>
+					<div class="quiz__slider swiper">
+						<form data-dev data-popup-message="#quiz-form" action="#" method="post" class="quiz__wrapper swiper-wrapper">
+							<article class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<!-- <h3 class="ask__title">Виберіть ступінь освіти</h3> -->
+
+
+									<div class="ask__buttons ask__buttons_head options">
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-3" class="ask__checkbox options__input" type="radio" value="3" name="degree">
+											<label for="degree-3" class="ask__label options__label">Державний університет економіки і технологій</label>
+											<button data-link="https://www.duet.edu.ua/ua/specialty/elektroenergetika-elektrotehnika-ta-elektromehanika"" tabindex=" -1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-4" class="ask__checkbox options__input" type="radio" value="4" name="degree">
+											<label for="degree-4" class="ask__label options__label">Лiцеї</label>
+											<button data-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-3" class="ask__checkbox options__input" type="radio" value="3" name="degree">
+											<label for="degree-3" class="ask__label options__label">Заклади професiйної (професiйно-технiчної) освiти</label>
+											<button data-link="https://www.duet.edu.ua/ua/specialty/elektroenergetika-elektrotehnika-ta-elektromehanika"" tabindex=" -1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-4" class="ask__checkbox options__input" type="radio" value="4" name="degree">
+											<label for="degree-4" class="ask__label options__label">Коледжі</label>
+											<button data-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+									</div>
+
+
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-1" class="ask__checkbox options__input" type="radio" value="1" name="degree">
+											<label for="degree-1" class="ask__label options__label">Повна загальга середня освiта</label>
+											<button data-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+											<!-- ! tippy -->
+											<!-- <div class="ask__comment comment-ask ">
+												<p class="comment-ask__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur doloribus tempore quas aliquam maiores deleniti, necessitatibus a delectus culpa iure, hic aspernatur odit suscipit animi natus quidem corrupti velit!</p>
+												<a href="#" class="comment-ask__link" target="_blank">Link</a>
+											</div> -->
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-2" class="ask__checkbox options__input" type="radio" value="2" name="degree">
+											<label for="degree-2" class="ask__label options__label">Фаховий молодший бакалавр</label>
+											<button data-link="https://www.duet.edu.ua/ua/specialty/elektroenergetika-elektrotehnika-ta-elektromehanika"" tabindex=" -1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-3" class="ask__checkbox options__input" type="radio" value="3" name="degree">
+											<label for="degree-3" class="ask__label options__label">Молодший бакалавр</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-4" class="ask__checkbox options__input" type="radio" value="4" name="degree">
+											<label for="degree-4" class="ask__label options__label">Бакалавр</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-4" class="ask__checkbox options__input" type="radio" value="4" name="degree">
+											<label for="degree-4" class="ask__label options__label">Магiстр</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="degree-4" class="ask__checkbox options__input" type="radio" value="4" name="degree">
+											<label for="degree-4" class="ask__label options__label">Доктор філософії (PhD)</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+
+
+									</div>
+								</div>
+							</article>
+							<article class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<h3 class="ask__title">Оберіть свою спеціальність</h3>
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-1" class="ask__checkbox options__input" type="radio" value="1" name="speciality">
+											<label for="speciality-1" class="ask__label options__label">Professional</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-2" class="ask__checkbox options__input" type="radio" value="2" name="speciality">
+											<label for="speciality-2" class="ask__label options__label">Other</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-3" class="ask__checkbox options__input" type="radio" value="3" name="speciality">
+											<label for="speciality-3" class="ask__label options__label">Bachelor</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-4" class="ask__checkbox options__input" type="radio" value="4" name="speciality">
+											<label for="speciality-4" class="ask__label options__label">Master</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-5" class="ask__checkbox options__input" type="radio" value="5" name="speciality">
+											<label for="speciality-5" class="ask__label options__label">Lorem ipsum</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-6" class="ask__checkbox options__input" type="radio" value="6" name="speciality">
+											<label for="speciality-6" class="ask__label options__label">Junior</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="speciality-7" class="ask__checkbox options__input" type="radio" value="7" name="speciality">
+											<label for="speciality-7" class="ask__label options__label">Deleniti libero</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+
+									</div>
+								</div>
+							</article>
+							<article class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<h3 class="ask__title">Хочеш отримати другу освіту?</h3>
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="education-1" class="ask__checkbox options__input" type="radio" value="1" name="education">
+											<label for="education-1" class="ask__label options__label">Yes</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="education-2" class="ask__checkbox options__input" type="radio" value="2" name="education">
+											<label for="education-2" class="ask__label options__label">No</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article data-question="speciality" class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<h3 class="ask__title">Оберіть другу спеціальність</h3>
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="second-speciality-1" class="ask__checkbox options__input" type="radio" value="1" name="second-speciality">
+											<label for="second-speciality-1" class="ask__label options__label">Professional</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="second-speciality-2" class="ask__checkbox options__input" type="radio" value="2" name="second-speciality">
+											<label for="second-speciality-2" class="ask__label options__label">Other</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="second-speciality-3" class="ask__checkbox options__input" type="radio" value="3" name="second-speciality">
+											<label for="second-speciality-3" class="ask__label options__label">Bachelor</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+										<div class="ask__item options__item">
+											<input hidden tabindex="-1" id="second-speciality-4" class="ask__checkbox options__input" type="radio" value="4" name="second-speciality">
+											<label for="second-speciality-4" class="ask__label options__label">Master</label>
+											<button data-tippy-content="Подсказка" tabindex="-1" type="button" class="ask__button-tippy">?</button>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<h3 class="ask__title">Отримати результат?</h3>
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<button type="reset" tabindex="-1" class="ask__button">Ні</button>
+										</div>
+										<div class="ask__item options__item">
+											<button type="submit" tabindex="-1" class="ask__label">Так</button>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="quiz__slide swiper-slide">
+								<div class="quiz__ask ask">
+									<h3 class="ask__title">Дякуємо що пройшли опитування!</h3>
+									<div class="ask__buttons options">
+										<div class="ask__item options__item">
+											<button type="reset" tabindex="-1" class="ask__button">Пройдіть ще?</button>
+										</div>
+										<div class="ask__item options__item">
+											<!-- <button type="reset" class="ask__button">Reset</button> -->
+											<a href="#" target="_blank" tabindex="-1" class="ask__label">Ваш результат</a>
+										</div>
+
+									</div>
+								</div>
+							</article>
+
+						</form>
+					</div>
+
+
+
+				</div>
+			</section>
+			<section class="page__comments comments">
+				<div class="comments__header">
+					<h2 class="comments__title">Що говорять наші студенти</h2>
+					<h3 class="comments__subtitle">Освіта протягом життя</h3>
+				</div>
+				<div class="comments__slider swiper">
+					<div class="comments__wrapper swiper-wrapper">
+						<article class="comments__slide swiper-slide slide-comments">
+							<div class="slide-comments__card _icon-quote">
+								<div class="slide-comments__image-ibg"><picture><source srcset="img/comments/Gregory.webp" type="image/webp"><img src="img/comments/Gregory.jpg" alt="Фото"></picture></div>
+								<p class="slide-comments__name">Григорiй Каданер</p>
+								<p class="slide-comments__comment">Дуже задоволений що обрав саме цей університет! Долучайтеся до команди!</p>
+							</div>
+						</article>
+						<article class="comments__slide swiper-slide slide-comments">
+							<div class="slide-comments__card _icon-quote">
+								<div class="slide-comments__image-ibg"><picture><source srcset="img/comments/Vadim.webp" type="image/webp"><img src="img/comments/Vadim.jpg" alt="Фото"></picture></div>
+								<p class="slide-comments__name">Клюй Вадим</p>
+								<p class="slide-comments__comment">Я обрав цей університет тому що тут є всі умови щоб стати високо кваліфікованим фахівцем</p>
+							</div>
+						</article>
+						<article class="comments__slide swiper-slide slide-comments">
+							<div class="slide-comments__card _icon-quote">
+								<div class="slide-comments__image-ibg"><picture><source srcset="img/comments/Donchenko.webp" type="image/webp"><img src="img/comments/Donchenko.jpg" alt="Фото"></picture></div>
+								<p class="slide-comments__name">Олексiй Донченко</p>
+								<p class="slide-comments__comment">Задоволений що не помилився з вибором вищого навчального закладу. Дуже кваліфікований педагогічний склад!</p>
+							</div>
+						</article>
+						<article class="comments__slide swiper-slide slide-comments">
+							<div class="slide-comments__card _icon-quote">
+								<div class="slide-comments__image-ibg"><picture><source srcset="img/comments/Kravchuk.webp" type="image/webp"><img src="img/comments/Kravchuk.jpg" alt="Фото"></picture></div>
+								<p class="slide-comments__name">Микита Кравчук</p>
+								<p class="slide-comments__comment">Сучасна освіта у Кривому Розі дала мені можливість реалізувати себе!</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact contact">
+				<div class="contact__container">
+					<div class="contact__image-ibg"><img src="img/contact/contact.svg" alt="Картинка"></div>
+					<div class="contact__content">
+						<div class="contact__header">
+							<h2 class="contact__title">Зв'яжіться з нами</h2>
+							<!-- <p class="contact__subtitle">Долучайся до DUET FAMILY!</p> -->
+						</div>
+						<!-- <form data-dev data-popup-message="#contact-form" class="contact__form" action="" method="post">
+							<div class="contact__input contact__input_name">
+								<label for="input-name">Name</label>
+								<input data-required autocomplete="off" id="input-name" type="text" name="form[]" data-error="Enter your name" placeholder="Ivan Ivanov" class="input">
+							</div>
+							<div class="contact__input contact__input_email">
+								<label for="input-email">Email</label>
+								<input data-required="email" autocomplete="off" id="input-email" type="email" name="form[]" data-error="Please enter correct email" placeholder="example@gmail.com" class="input">
+							</div>
+							<div class="contact__input contact__input_phone">
+								<label for="input-phone">Phone</label>
+								<input data-required autocomplete="off" id="input-phone" type="tel" name="form[]" data-error="Please enter correct phone" placeholder="+380123456789" class="input">
+							</div>
+							<button type="submit" class="contact__button button">Get in touch</button>
+						</form> -->
+						<a target="_blank" href="" class="contact__button contact__button_modify button">Отримай свого персонального менеджера</a>
+						<!-- <a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/manag-vstup" class="contact__button contact__button_modify button">Отримай свого персонального менеджера</a> -->
+						<!-- <a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/enrolment-committee" class="contact__button contact__button_modify button">Долучайся до <br> DUET FAMILY!</a> -->
+						<a target="_blank" href="" class="contact__button contact__button_modify button"><br><br></a>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<div class="partners__content">
+						<h2 class="partners__title">Партнери</h2>
+						<div class="partners__image">
+							<a target="_blank" href="https://metinvestholding.com/ua" class="partners__image-ibg partners__image-ibg_contain"><picture><source srcset="img/partners/metinvest.webp" type="image/webp"><img src="img/partners/metinvest.png" alt="metinvest"></picture></a>
+							<a target="_blank" href="#" class="partners__image-ibg partners__image-ibg_kr partners__image-ibg_contain"><picture><source srcset="img/partners/kr.webp" type="image/webp"><img src="img/partners/kr.png" alt="kr"></picture></a>
+							<a target="_blank" href="#" class="partners__image-ibg partners__image-ibg_duet partners__image-ibg_contain"><img src="img/partners/duet.svg" alt="duet"></a>
+							<a target="_blank" href="#" class="partners__image-ibg partners__image-ibg_csdri partners__image-ibg_contain"><picture><source srcset="img/partners/CSDRI_logo_UKR.webp" type="image/webp"><img src="img/partners/CSDRI_logo_UKR.png" alt="csdri"></picture></a>
+							<a target="_blank" href="#" class="partners__image-ibg partners__image-ibg_contain"><picture><source srcset="img/partners/rudomain.webp" type="image/webp"><img src="img/partners/rudomain.png" alt="rudomain"></picture></a>
+							<a target="_blank" href="https://ukraine.arcelormittal.com/" class="partners__image-ibg partners__image-ibg_arcelor partners__image-ibg_contain"><picture><source srcset="img/partners/arcelor_mittal.webp" type="image/webp"><img src="img/partners/arcelor_mittal.png" alt="arcelor_mittal"></picture></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div class="language-btn language-btn_hidden">
+			<button class="language-btn__btn" id="landShow" aria-label="language">
+				<svg aria-hidden="true" focusable="false" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+					<path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm179.3 160h-67.2c-6.7-36.5-17.5-68.8-31.2-94.7 42.9 19 77.7 52.7 98.4 94.7zM248 56c18.6 0 48.6 41.2 63.2 112H184.8C199.4 97.2 229.4 56 248 56zM48 256c0-13.7 1.4-27.1 4-40h77.7c-1 13.1-1.7 26.3-1.7 40s.7 26.9 1.7 40H52c-2.6-12.9-4-26.3-4-40zm20.7 88h67.2c6.7 36.5 17.5 68.8 31.2 94.7-42.9-19-77.7-52.7-98.4-94.7zm67.2-176H68.7c20.7-42 55.5-75.7 98.4-94.7-13.7 25.9-24.5 58.2-31.2 94.7zM248 456c-18.6 0-48.6-41.2-63.2-112h126.5c-14.7 70.8-44.7 112-63.3 112zm70.1-160H177.9c-1.1-12.8-1.9-26-1.9-40s.8-27.2 1.9-40h140.3c1.1 12.8 1.9 26 1.9 40s-.9 27.2-2 40zm10.8 142.7c13.7-25.9 24.4-58.2 31.2-94.7h67.2c-20.7 42-55.5 75.7-98.4 94.7zM366.3 296c1-13.1 1.7-26.3 1.7-40s-.7-26.9-1.7-40H444c2.6 12.9 4 26.3 4 40s-1.4 27.1-4 40h-77.7z"></path>
+				</svg><!-- <i class="far fa-globe"></i> -->
+			</button>
+			<div class="language-btn__lang lang-btn" id="langShowerMenu">
+				<a href="../" class="lang-btn__link">Uk</a>
+				<a href="../en/" class="lang-btn__link">En</a>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__container footer__container_slim">
+				<div class="footer__body body-footer">
+					<div class="body-footer__column body-footer__column_logo">
+						<!-- <a href="#" class="body-footer__logo" aria-label="logo"></a> -->
+						<a href="" class="body-footer__logo-ibg">
+							<svg width="400" height="60" viewBox="0 0 1766 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M927.447 158.394C923.029 158.394 919.447 154.812 919.447 150.394V101.561L842.658 101.703C839.455 101.733 836.499 99.764 835.256 96.774C834.013 93.784 834.695 90.34 836.983 88.05L921.87 3.04098C924.992 -0.0860219 930.057 -0.0890174 933.184 3.03298C936.31 6.15498 936.314 11.22 933.192 14.346L861.973 85.666L927.432 85.545C927.437 85.545 927.442 85.545 927.447 85.545C929.566 85.545 931.598 86.386 933.098 87.883C934.602 89.384 935.447 91.421 935.447 93.545V150.393C935.447 154.812 931.865 158.394 927.447 158.394Z" fill="#3860D3" />
+								<path d="M1089.14 158.38H1046.24C1041.83 158.38 1038.24 154.798 1038.24 150.38C1038.24 145.962 1041.83 142.38 1046.24 142.38H1081.14V16.693H983.99V51.193C983.99 55.611 980.408 59.193 975.99 59.193C971.572 59.193 967.99 55.611 967.99 51.193V8.69299C967.99 4.27499 971.572 0.692993 975.99 0.692993H1089.14C1093.56 0.692993 1097.14 4.27499 1097.14 8.69299V150.38C1097.14 154.798 1093.56 158.38 1089.14 158.38Z" fill="#3860D3" />
+								<path d="M975.992 157.484C981.765 156.725 985.823 151.39 985.057 145.57C984.29 139.75 978.99 135.648 973.218 136.407C967.446 137.167 963.388 142.501 964.154 148.322C964.92 154.142 970.22 158.244 975.992 157.484Z" fill="#3860D3" />
+								<path d="M715.832 89.808C715.832 95.68 711.073 100.439 705.201 100.439C699.33 100.439 694.572 95.68 694.572 89.808C694.572 83.931 699.33 79.177 705.201 79.177C711.073 79.177 715.832 83.931 715.832 89.808Z" fill="#1D1D1B" />
+								<path d="M479.037 27.943H464.037V132.338H479.037V27.943Z" fill="#1D1D1B" />
+								<path d="M66.583 27.506C30.096 27.506 0.411011 51.118 0.411011 80.141C0.411011 109.163 30.096 132.775 66.583 132.775C103.071 132.775 132.755 109.164 132.755 80.141C132.755 51.118 103.07 27.506 66.583 27.506ZM66.583 117.774C38.367 117.774 15.411 100.891 15.411 80.14C15.411 59.388 38.367 42.505 66.583 42.505C94.799 42.505 117.755 59.388 117.755 80.14C117.755 100.892 94.799 117.774 66.583 117.774Z" fill="#1D1D1B" />
+								<path d="M148.968 80.141C148.968 108.922 178.398 132.338 214.573 132.338H280.693V117.338H214.573C186.669 117.338 163.968 100.651 163.968 80.141C163.968 59.63 186.669 42.943 214.573 42.943H280.693V27.943H214.573C178.398 27.942 148.968 51.358 148.968 80.141Z" fill="#1D1D1B" />
+								<path d="M439.147 59.667C439.147 41.878 420.782 27.943 397.337 27.943H306.691V42.943H397.337C411.869 42.943 424.147 50.602 424.147 59.667C424.147 64.597 420.292 69.475 413.991 72.64H306.692V87.64H413.99C420.292 90.803 424.148 95.672 424.148 100.59C424.148 109.668 411.871 117.338 397.338 117.338H306.692V132.337H397.338C420.783 132.337 439.148 118.393 439.148 100.59C439.148 92.864 435.676 85.708 429.493 80.139C435.675 74.564 439.147 67.401 439.147 59.667Z" fill="#1D1D1B" />
+								<path d="M504.259 27.943V42.943H561.838V132.35H576.838V42.943H634.417V27.943H504.259Z" fill="#1D1D1B" />
+								<path d="M705.202 27.506C668.769 27.506 639.129 52.577 639.129 83.393V132.35H654.129V83.393C654.129 60.848 677.04 42.506 705.202 42.506C733.362 42.506 756.272 60.848 756.272 83.393V132.35H771.272V83.393C771.272 52.577 741.633 27.506 705.202 27.506Z" fill="#1D1D1B" />
+								<path d="M1757.04 0.692993H1176.72C1172.3 0.692993 1168.72 4.27499 1168.72 8.69299V150.38C1168.72 154.798 1172.3 158.38 1176.72 158.38H1757.04C1761.46 158.38 1765.04 154.798 1765.04 150.38V8.69299C1765.04 4.27399 1761.46 0.692993 1757.04 0.692993Z" fill="#3860D3" />
+								<path d="M1683.65 80.14C1689.83 74.566 1693.3 67.403 1693.3 59.668C1693.3 41.878 1674.94 27.943 1651.49 27.943H1560.85V42.943H1651.49C1666.02 42.943 1678.3 50.602 1678.3 59.668C1678.3 64.867 1674.01 70.006 1667.09 73.141H1560.85V87.141H1667.08C1674.01 90.275 1678.3 95.405 1678.3 100.591C1678.3 109.669 1666.02 117.339 1651.49 117.339H1560.85V132.339H1651.49C1674.94 132.339 1693.3 118.394 1693.3 100.591C1693.3 92.864 1689.83 85.709 1683.65 80.14Z" fill="white" />
+								<path d="M1358.64 72.641H1256.14V27.933H1241.14V132.285H1256.14V87.641H1358.64V132.285H1373.64V27.933H1358.64V72.641Z" fill="white" />
+								<path d="M1518.03 77.329C1518.03 99.874 1495.11 118.216 1466.95 118.216C1438.79 118.216 1415.88 99.874 1415.88 77.329V27.933H1400.88V77.329C1400.88 108.145 1430.52 133.216 1466.95 133.216C1503.39 133.216 1533.03 108.146 1533.03 77.329V27.933H1518.03V77.329Z" fill="white" />
+							</svg>
+						</a>
+						<p class="body-footer__text">Отримуй у закладах освiти Кривого Рогу одразу все!</p>
+						<p class="body-footer__info">© 2023 Платформа ОСВІТА 4.0 HUB</p>
+						<!-- <ul class="body-footer__social-networks">
+					<li class="body-footer__item"><a href="https://www.duet.edu.ua/ua" class="body-footer__link _icon-globe" target="_blank" aria-label="globe"></a></li>
+					<li class="body-footer__item"><a href="https://www.facebook.com/duet.edu.ua/" class="body-footer__link _icon-facebook" target="_blank" aria-label="facebook"></a></li>
+					<li class="body-footer__item"><a href="https://www.instagram.com/duet.edu.ua/" class="body-footer__link _icon-instagram" target="_blank" aria-label="instagram"></a></li>
+					<li class="body-footer__item"><a href="https://t.me/kei_kneu" class="body-footer__link _icon-telegram" target="_blank" aria-label="telegram"></a></li>
+				</ul> -->
+					</div>
+					<!-- <div class="body-footer__column body-footer__column_about">
+				<h3 class="body-footer__title">ВСТУП</h3>
+				<ul class="body-footer__list">
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/enrolment-committee" class="body-footer__link body-footer__link_underline">Початок твого успіху</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/doc-pk" class="body-footer__link body-footer__link_underline">Правила прийому</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/pidgotovka-do-vstupu" class="body-footer__link body-footer__link_underline">Підготовка до вступу</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/enrollees/abitinform" class="body-footer__link body-footer__link_underline">Інформація для абітурієнтів</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/press-center/news?category=12" class="body-footer__link body-footer__link_underline">Новини вступної кампанії</a></li>
+				</ul>
+			</div>
+			<div class="body-footer__column body-footer__column_learning">
+				<h3 class="body-footer__title">Життя в дует</h3>
+				<ul class="body-footer__list">
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/institut/institut-dlya-studenta" class="body-footer__link body-footer__link_underline">Університет для студента</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/institut/napryami" class="body-footer__link body-footer__link_underline">Стартапи та проекти</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/institut/the-history-of-success" class="body-footer__link body-footer__link_underline">Історія успіху</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://ithub-coworking.com/" class="body-footer__link body-footer__link_underline">IT-HUB Coworking</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/divisions/centr-studentskih-komunikaciy" class="body-footer__link body-footer__link_underline">Центр студентських комунікацій</a></li>
+				</ul>
+			</div>
+			<div class="body-footer__column body-footer__column_komisia">
+				<h3 class="body-footer__title">Приймальна комісія</h3>
+				<ul class="body-footer__list">
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/contacts/contacts" class="body-footer__link body-footer__link_underline">Кривий Ріг, пл. Визволення, 2</a></li>
+					<li class="body-footer__item"><a href="tel:+380982073648" class="body-footer__link body-footer__link_underline">+380982073648</a></li>
+					<li class="body-footer__item"><a href="tel:+380679399556" class="body-footer__link body-footer__link_underline">+380679399556</a></li>
+					<li class="body-footer__item"><a href="mailto:vstup.duet@gmail.com" class="body-footer__link body-footer__link_underline">vstup.duet@gmail.com</a></li>
+				</ul>
+			</div> -->
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- <div class="body-footer__column body-footer__column_more">
+				<h3 class="body-footer__title">Сервіси:</h3>
+				<ul class="body-footer__list">
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/divisions/centr-studentskih-komunikaciy" class="body-footer__link">Центр студентських комунікацій (ЦСК)</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/schedule/rozklad" class="body-footer__link">Розклад</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/contacts/dovidnik-e-mail-adres" class="body-footer__link">Довідник e-mail адрес</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://moodle.duet.edu.ua/" class="body-footer__link">Система Moodle</a></li>
+					<li class="body-footer__item"><a target="_blank" href="http://dspace.duet.edu.ua/jspui/" class="body-footer__link">Репозитарій</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/contacts/karta-universiteta" class="body-footer__link">Карта університету</a></li>
+					<li class="body-footer__item"><a target="_blank" href="https://www.duet.edu.ua/ua/area/contacts/sitemap" class="body-footer__link">Мапа сайту</a></li>
+				</ul>
+			</div> -->
+	</div>
+	<!-- <div id="sub" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"></button>
+			<div class="popup__body">
+				<p class="popup__text">
+					Thank you for your feedback. <br> We will contact you
+				</p>
+				<div class="popup__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<!-- ======================================================================================================================================================== -->
+
+	<div id="quiz-form" aria-hidden="true" class="submit-form errors-container">
+		<div class="submit-form__wrapper">
+			<div class="submit-form__content">
+				<button data-close type="button" class="submit-form__close"></button>
+				<div class="submit-form__body">
+					<p class="submit-form__text">
+						Thank you for your feedback. <br> Good day!
+					</p>
+					<div class="submit-form__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact-form" aria-hidden="true" class="submit-form errors-container">
+		<div class="submit-form__wrapper">
+			<div class="submit-form__content">
+				<button data-close type="button" class="submit-form__close"></button>
+				<div class="submit-form__body">
+					<p class="submit-form__text">
+						Thank you for your feedback. <br> We will contact you
+					</p>
+					<div class="submit-form__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="info-quiz" aria-hidden="true" class="submit-form errors-container">
+	<div class="submit-form__wrapper">
+		<div class="submit-form__content">
+			<button data-close type="button" class="submit-form__close"></button>
+			<div class="submit-form__body">
+				<p class="submit-form__text">
+					Нажаль зараз ДУЕТ не може запропонувати дану освiтню програму
+				</p>
+				<div class="submit-form__image-ibg"><img src="img/popup/submit-form/info.svg" alt=""></div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<div id="info-quiz" aria-hidden="true" class="submit-form errors-container">
+		<div class="submit-form__wrapper">
+			<div class="submit-form__content">
+				<button data-close type="button" class="submit-form__close"></button>
+				<div class="submit-form__body">
+					<p class="submit-form__text">
+						Зараз у розробцi
+					</p>
+					<div class="submit-form__image-ibg"><img src="img/popup/submit-form/info.svg" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="tippy-text" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">Заголовок</h2>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__body">
+					<p class="popup__text">
+						Подсказка
+					</p>
+					<!-- <div class="popup__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="tippy-link" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, ad?</h2>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__body">
+					<p class="popup__text">Детальніше за посиланням:</p>
+					<a target="_blank" href="#" class="popup__link">
+						Подсказка
+					</a>
+					<!-- <div class="popup__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="video" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<h2 class="popup__title">Osvita HUB</h2>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div data-popup-youtube-place class="popup__body">
+					<!-- <p data-youtube-place class="popup__text"> -->
+					<!-- Подсказка -->
+					<!-- </p> -->
+					<!-- <div class="popup__image-ibg"><picture><source srcset="img/popup/submit-form/done.webp" type="image/webp"><img src="img/popup/submit-form/done.png" alt=""></picture></div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230211233250"></script>
+</body>
+
+</html>
